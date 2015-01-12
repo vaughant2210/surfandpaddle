@@ -271,7 +271,7 @@ font-weight: 900;
     rgba(17,117,192,0.75),
     rgba(17,117,192,0.75)
     ),url("vaughant1.jpg") no-repeat center;
-    background-size:100%;
+  background-size:100%;
   float:left;
   margin-top:10px;
   }
@@ -314,7 +314,6 @@ font-weight: 900;
 
 .socialbutton{
   display: inline-block;
-  background: #A0B3C0;
   float:left;
   height:30px;
   margin-right:20px;
@@ -323,27 +322,44 @@ font-weight: 900;
   font-size:12px;
 }
 
-.socialbutton a:hover{
-  background-color:#106db3;
-  vertical-align:top;
-}
-
 .socialicon {
   display:inline-block;
   width:30px;
+  height:30px;
   vertical-align:top;
-  background: orange;
-  border: 3px solid green;
+  background: #5C6870;
+
 }
 
+.socialicon img:hover{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  background-color:#106db3;
+  vertical-align:top;
+  background-size:100%;
+}
 
 .socialtext{
 
   display:inline-block;
-  vertical-align:top;
+  vertical-align:middle;
+  background:#A0B3C0;
   color:white;
-
+  width:100px;
+  hight:50px;
+  padding: 0px 0px 13px 0px;
+  text-align:center;
+  
 }
+
+.socialtext:hover{
+  display:inline-block;
+  background-color:#106db3;
+  vertical-align:middle;
+  background-size:100%;
+}
+
 
 .later{
   display: inline-block;
@@ -375,12 +391,12 @@ font-weight: 900;
   margin-right: auto;
 }
 
-.:hover{
+.topimage:hover{
   background:url("vaughant1.jpg") no-repeat center;
-
+  background-size:100%;
 }
 
-.::after {
+/* .::after {
       content: "";
       display: block;
       position: absolute;
@@ -394,7 +410,7 @@ font-weight: 900;
 
 .:hover::after {
       background-color: rgba(145, 145, 145, 0);
-    }
+    } */
 
 .topimagetext{
   text-align:center;
