@@ -1,0 +1,540 @@
+/*COLORS*/
+/*FONT*/
+/*CONTENT*/
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/*
+*
+{border:1px solid red;
+}
+*/
+body {
+  background-color: RGB(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0px; }
+
+h1, h2, h3, h4, h5, h6 {
+  align: center;
+  font-family: "Open Sans", sans-serif; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #6E777D;
+  line-height: 1.75em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0px; }
+
+.header {
+  height: 522px;
+  max-width: 1300px;
+  background: linear-gradient(rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("http://hdwallpaper.freehdw.com/0006/3d-abstract_widewallpaper_ocean-waves_52052.jpg") no-repeat center center; }
+
+.maincontainer {
+  height: 1009px;
+  max-width: 1300px;
+  background-color: RGB(255, 255, 255);
+  margin: auto; }
+
+.secondcontainer {
+  height: 147px;
+  max-width: 1300px;
+  background-color: RGB(255, 255, 255); }
+
+.fourimagecontainer {
+  height: 330px;
+  max-width: 1300px;
+  margin-top: 0; }
+
+.footer {
+  height: 96px;
+  max-width: 1300px;
+  background-color: RGB(0, 51, 83);
+  font-family: "Open Sans", sans-serif;
+  color: RGB(255, 255, 255); }
+
+/*HEADER*/
+/*HEADER CONTAINER */
+.headertopa {
+  display: inline-block;
+  align: left; }
+
+.headertopb {
+  float: right;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align: left; }
+
+.headerbottom {
+  font-family: "Open Sans", sans-serif;
+  font-size: 102px;
+  text-align: center;
+  line-height: 10px;
+  vertical-align: bottom;
+  color: RGB(255, 255, 255);
+  letter-spacing: 0px;
+  margin-top: 194px;
+  font-weight: 400;
+  padding-left: 50px; }
+
+/*MAIN CONTAINER   ///////////////////////////////////////////////////////////*/
+.profile-image {
+  height: 50px;
+  width: 40px;
+  border-radius: 100%;
+  margin: 10px;
+  border: solid 3px #02779E;
+  padding: 5px;
+  float: left;
+  position: absolute;
+  top: 0px;
+  right: 0px; }
+
+/*HEADER CONTAINER////////////////////////////////////////////*/
+.headerlefta {
+  display: inline-block;
+  background: url("icons/logo.png") no-repeat center center;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 135px;
+  vertical-align: middle;
+  color: black; }
+
+.headerleft {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+  color: black; }
+
+.headertwo {
+  display: inline-block;
+  float: right;
+  margin-right: 80px; }
+
+.overallsearch {
+  postion: absolute;
+  text-align: center;
+  clear: both;
+  float: right;
+  margin-right: 123px;
+  margin-top: 11px; }
+
+.headerright1 {
+  display: inline-block;
+  margin-top: 0px;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-right: 10px;
+  color: black; }
+
+.headerright2 {
+  display: inline-block;
+  margin-top: 0px;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  font-weight: 400;
+  color: black; }
+
+.headerrightsearch {
+  display: inline-block;
+  background: url("styles/icons/search.png") no-repeat;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+  vertical-align: bottom; }
+
+.summarytext {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 46px;
+  padding-left: 22px;
+  font-weight: 300; }
+
+.heada {
+  color: orange; }
+
+.headb {
+  color: orange; }
+
+.secondcontainerbottom {
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  line-height: 15px;
+  vertical-align: bottom;
+  font-stretch: extra-expanded;
+  color: RGB(0, 51, 83);
+  letter-spacing: 10px;
+  font-weight: 900; }
+
+/*MAIN CONTAINER//////////////////////////////////////////*/
+.col {
+  display: inline-block;
+  float: left; }
+
+.colr {
+  width: 278px;
+  margin: 60px 160px 0 0;
+  float: left; }
+
+.coll {
+  width: 617px;
+  margin: 60px 46px 0 160px;
+  float: left; }
+
+/***********RIGHT COLUMN*******/
+.fantastic {
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  font-size: 61px;
+  color: RGB(0, 51, 83);
+  line-height: 90%;
+  letter-spacing: 0px;
+  line-height: 1.1em;
+  font-weight: 400; }
+
+.topimageleft {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background: linear-gradient(rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("vaughant1.jpg") no-repeat center;
+  background-size: 100%;
+  float: left;
+  margin-top: 10px; }
+
+.toplist {
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+  color: #3B82BD;
+  font-size: 12px;
+  margin-left: 10px; }
+
+.toplisttwo {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+  font-size: 12px;
+  list-style-type: none;
+  margin-left: 10px; }
+
+#Whoa {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #106DB3;
+  border-left: 1px solid gray;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 200px;
+  width: 1000px;
+  text-align: right;
+  display: inline; }
+
+.socialbutton {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  margin-right: 20px;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+
+.socialicon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: top;
+  background: #5C6870; }
+
+.socialicon img:hover {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #106db3;
+  vertical-align: top;
+  background-size: 100%; }
+
+.socialtext {
+  display: inline-block;
+  vertical-align: middle;
+  background: #A0B3C0;
+  color: RGB(255, 255, 255);
+  width: 100px;
+  padding: 0px 0px 13px 0px;
+  text-align: center; }
+
+.socialtext:hover {
+  display: inline-block;
+  background-color: #106db3;
+  vertical-align: middle;
+  background-size: 100%; }
+
+.later {
+  display: inline-block;
+  list-style-type: none;
+  background: #A0B3C0;
+  float: left; }
+
+.share {
+  display: inline-block;
+  list-style-type: none;
+  background: #A0B3C0;
+  float: left; }
+
+/*********RIGHT COLUMN********/
+.topimage {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background: linear-gradient(rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)), url("vaughant1.jpg") no-repeat center;
+  background-size: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.topimage:hover {
+  background: url("vaughant1.jpg") no-repeat center;
+  background-size: 100%; }
+
+.topimagetext {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  margin-top: 10px;
+  color: #0069B6; }
+
+.socialmedia1 {
+  color: #B4C1CB;
+  font-size: 12px;
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  border-right: solid 1px gray;
+  vertical-align: center;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif; }
+
+.socialmedia {
+  color: #B4C1CB;
+  font-size: 12px;
+  text-align: center;
+  font-size: 11px;
+  margin-top: 5px; }
+
+.socialmedia1 {
+  color: #B4C1CB;
+  font-size: 12px;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  border-right: solid 1px gray;
+  vertical-align: center;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  padding-right: 5px; }
+
+.socialmedia2 {
+  display: inline-block;
+  color: #B4C1CB;
+  font-size: 12px;
+  list-style-type: none;
+  text-align: center;
+  border-right: solid 1px gray;
+  vertical-align: center;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.socialmedia3 {
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  display: inline-block;
+  vertical-align: center;
+  font-size: 12px; }
+
+.middleimage {
+  height: 302px;
+  width: 278px;
+  margin-top: 50px;
+  background: linear-gradient(rgba(17, 117, 192, 0.1), rgba(17, 117, 192, 0.1)), url("http://bigislandnow.com/wp-content/uploads/2012/08/Happy_Stand_up_paddle_surfing.jpg") no-repeat center center; }
+
+#adtext {
+  text-align: right;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  font-size: 12px; }
+
+a:link {
+  color: gray; }
+
+.bottomtext, h3 {
+  text-align: center;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  color: #0069B6; }
+
+/*********************SECOND CONTAINER *************************/
+.secondcontainer {
+  border-top: solid 1px gray; }
+
+.secondcontainerbottom {
+  vertical-align: middle;
+  margin-top: 60px;
+  letter-spacing: 2px; }
+
+/*********************FOUR IMAGE CONTAINER *************************/
+/*
+.allimages {
+  height: 330px;
+  width: 100%;
+  display: inline-block;
+  float: left;
+  background-size: cover;
+  font-size:20px;
+  text-transform: uppercase;
+    .oneimage {
+      height:330px;
+      width:25%;
+      float:left;
+      background:linear-gradient(
+      rgba(17,117,192,0.75),
+      rgba(17,117,192,0.75)
+      );
+        & a:hover{
+          display:inline-block;
+          height:330px;
+          width:100%;
+          float:left;
+          background:linear-gradient(
+          rgba(17,117,192,0.1),
+          rgba(17,117,192,0.1)
+          );
+          }
+    .pic1 { background-image: url("http://stabmag.com/wp-content/uploads/2012/06/27QNA1-popup.jpg"); }
+    .pic2 { background-image: url("http://360guide.info/wp-content/uploads/2014/06/surfboard-design-lineup.jpg"); }
+}
+*/
+.allimages {
+  height: 330px;
+  width: 100%;
+  display: inline-block;
+  float: left;
+  background-size: cover;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.oneimage {
+  display: inline-block;
+  height: 330px;
+  width: 25%;
+  float: left;
+  background: linear-gradient(rgba(17, 117, 192, 0.75), rgba(17, 117, 192, 0.75)); }
+  .oneimage .pic1 {
+    background-image: url("http://stabmag.com/wp-content/uploads/2012/06/27QNA1-popup.jpg") no-repeat center center; }
+  .oneimage .pic2 {
+    background-image: url("http://stabmag.com/wp-content/uploads/2012/06/27QNA1-popup.jpg") no-repeat center center; }
+  .oneimage a:hover {
+    display: inline-block;
+    height: 330px;
+    width: 100%;
+    float: left;
+    background: linear-gradient(rgba(17, 117, 192, 0.1), rgba(17, 117, 192, 0.1)); }
+
+.oneimage_text {
+  margin: 259px 0px 0px 20px;
+  color: RGB(0, 51, 83);
+  width: 81%;
+  margin-top: 260px; }
+  .oneimage_text:hover {
+    margin: 259px 0px 0px 20px;
+    color: RGB(255, 255, 255);
+    width: 81%;
+    margin-top: 260px; }
+
+/****************FOOTER IMAGE*********************/
+.footerimage {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  margin-left: 75px;
+  margin-top: 30px;
+  bottom: 0px;
+  left: 0px;
+  float: left; }
+
+/******FOOTER TEXT LEFT *******/
+.footertextleft {
+  float: left;
+  margin-left: 10px;
+  margin-top: 40px; }
+
+.footerimageleft {
+  background: url("theironyard.png") no-repeat center;
+  height: 40px;
+  width: 70px;
+  display: inline;
+  float: left;
+  margin-top: 30px;
+  margin-left: 75px; }
+
+.footertextleft2 {
+  display: block;
+  font-size: 14px;
+  float: left;
+  vertical-align: center; }
+
+/******FOOTER TEXT RIGHT *********/
+.footertextright {
+  float: right;
+  color: RGB(0, 51, 83);
+  padding-left: 50px;
+  text-align: right;
+  display: inline;
+  list-style: none;
+  margin-right: 75px;
+  float: right;
+  margin-top: 40px; }
+
+#footertext {
+  font-family: "Open Sans", sans-serif;
+  color: RGB(255, 255, 255);
+  size: 8px;
+  align: center;
+  margin-top: 40px;
+  margin-left: 5px;
+  display: inline-block; }
+
+.footernavtext {
+  color: RGB(255, 255, 255);
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: center; }
+
+.navtext {
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  color: RGB(255, 255, 255);
+  font-size: 12px;
+  display: inline;
+  border-right: solid 2px gray;
+  vertical-align: center;
+  padding-right: 5px; }
+
+.navtext2 {
+  font-family: "Oswald", sans-serif, "Open Sans", sans-serif;
+  color: RGB(255, 255, 255);
+  font-size: 12px;
+  display: inline;
+  vertical-align: center;
+  padding-right: 5px; }
+
+/*# sourceMappingURL=stylesheet.css.map */

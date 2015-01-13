@@ -1,5 +1,25 @@
+  /*COLORS*/
+
+  $prussianblue:RGB(0, 51, 83);
+  $primarycolor:$prussianblue;
+
+  $white:RGB(255, 255, 255);
+  $secondarycolor:$white;
+
+
+/*FONT*/
+
+  $body-font: "Open Sans", sans-serif;
+  $header-font: "Oswald", sans-serif, $body-font;
+
+/*CONTENT*/
+
+  $width: 1300px;
+
+
+
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 * {
@@ -7,26 +27,26 @@
   padding: 0
 
 }
-
+/*
 *
 {border:1px solid red;
 }
-
+*/
 
 
 body{
-  background-color: white;
-  font-family:'Oswald', sans-serif;
+  background-color: $secondarycolor;
+  font-family:$body-font;
   margin-top:0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   align:center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $body-font;
 }
 
 p{
-  font-family:'Open Sans', sans-serif;
+  font-family:$body-font;
   color:#6E777D;
   line-height:1.75em;
   margin-bottom:10px;
@@ -38,40 +58,40 @@ p{
 
 .header{
   height:522px;
-  max-width:1300px;
+  max-width:$width;
   background:linear-gradient(
-    rgba(17,117,192,0.75),
-    rgba(17,117,192,0.75)
-    ),url("http://hdwallpaper.freehdw.com/0006/3d-abstract_widewallpaper_ocean-waves_52052.jpg") no-repeat center center;
+  rgba(17,117,192,0.75),
+  rgba(17,117,192,0.75)
+  ),url("http://hdwallpaper.freehdw.com/0006/3d-abstract_widewallpaper_ocean-waves_52052.jpg") no-repeat center center;
 
 }
 
 .maincontainer{
   height:1009px;
-  max-width:1300px;
-  background-color:white;
+  max-width:$width;
+  background-color:$secondarycolor;
   margin:auto;
 }
 
 .secondcontainer{
   height:147px;
-  max-width:1300px;
-  background-color:white;
+  max-width:$width;
+  background-color:$secondarycolor;
 }
 
 .fourimagecontainer{
   height:330px;
-  max-width:1300px;
+  max-width:$width;
   margin-top:0;
 
 }
 
 .footer{
   height:96px;
-  max-width:1300px;
-  background-color:#003352;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
+  max-width:$width;
+  background-color:$primarycolor;
+  font-family: $body-font;
+  color: $secondarycolor;
 }
 
 
@@ -100,12 +120,12 @@ p{
 
 .headerbottom{
 
-  font-family: 'Open Sans', serif;
+  font-family: $body-font;
   font-size:102px;
   text-align:center;
   line-height:10px;
   vertical-align:bottom;
-  color:white;
+  color:$secondarycolor;
   letter-spacing: 0px;
   margin-top:194px;
   font-weight:400;
@@ -140,10 +160,11 @@ p{
   margin-left:135px;
   vertical-align:middle;
   color:black;
+
 }
 
 .headerleft{
-  font-family:'Open Sans', sans-serif;
+  font-family:$body-font;
   display:inline-block;
   vertical-align:middle;
   padding-left:5px;
@@ -169,48 +190,43 @@ p{
 
 .headerright1{
 
-    display:inline-block;
-    margin-top:0px;
-    font-size:18px;
-    font-family:'Oswald', sans-serif;
-    font-weight:400;
-    margin-right:10px;
-    color:black;
+  display:inline-block;
+  margin-top:0px;
+  font-size:18px;
+  font-family:$header-font;
+  font-weight:400;
+  margin-right:10px;
+  color:black;
 }
 
 
-  .headerright2{
-    display:inline-block;
-    margin-top:0px;
-    font-size:18px;
-    font-family:'Oswald', sans-serif;
-    font-weight:400;
-    color:black;
+.headerright2{
+  display:inline-block;
+  margin-top:0px;
+  font-size:18px;
+  font-family:$header-font;
+  font-weight:400;
+  color:black;
 }
 
 .headerrightsearch{
   display:inline-block;
-  background: url("icons/search.png") no-repeat;
+  background: url("styles/icons/search.png") no-repeat;
   background-position: center;
   height:30px;
   width:30px;
   vertical-align:bottom;
 }
 
-
-
 .summarytext{
-font-family:'Open Sans' sans-serif;
-text-align:center;
-font-size:14px;
-padding-top:46px;
-padding-left:22px;
-font-weight: 300;
+  font-family:$body-font;
+  text-align:center;
+  font-size:14px;
+  padding-top:46px;
+  padding-left:22px;
+  font-weight: 300;
 
 }
-
-
-
 
 .heada {
   color: orange;
@@ -221,17 +237,16 @@ font-weight: 300;
   color:orange;
 }
 
-
 .secondcontainerbottom{
-font-family: 'Oswald', serif;
-font-size:60px;
-text-align:center;
-line-height:15px;
-vertical-align:bottom;
-font-stretch:extra-expanded;
-color:#003353;
-letter-spacing:10px;
-font-weight: 900;
+  font-family: $header-font;
+  font-size:60px;
+  text-align:center;
+  line-height:15px;
+  vertical-align:bottom;
+  font-stretch:extra-expanded;
+  color:$primarycolor;
+  letter-spacing:10px;
+  font-weight: 900;
 }
 
 /*MAIN CONTAINER//////////////////////////////////////////*/
@@ -252,11 +267,11 @@ font-weight: 900;
   float:left;
 }
 
-
+/***********RIGHT COLUMN*******///////////
 .fantastic{
-  font-family: "Oswald" san-serif;
+  font-family: $header-font;
   font-size:61px;
-  color:#003353;
+  color:$primarycolor;
   line-height:90%;
   letter-spacing:0px;
   line-height:1.1em;
@@ -268,13 +283,13 @@ font-weight: 900;
   width:20px;
   border-radius:100%;
   background:linear-gradient(
-    rgba(17,117,192,0.75),
-    rgba(17,117,192,0.75)
-    ),url("vaughant1.jpg") no-repeat center;
+  rgba(17,117,192,0.75),
+  rgba(17,117,192,0.75)
+  ),url("vaughant1.jpg") no-repeat center;
   background-size:100%;
   float:left;
   margin-top:10px;
-  }
+}
 
 .toplist{
   display:inline;
@@ -287,8 +302,8 @@ font-weight: 900;
 
 .toplisttwo{
   display:inline-block;
-  font-family: "Open Sans", sans-serif;
-  color:grey;
+  font-family: $body-font;
+  color:gray;
   font-size:12px;
   list-style-type: none;
   margin-left:10px;
@@ -296,10 +311,10 @@ font-weight: 900;
 
 #Whoa{
   font-size:28px;
-  font-family:"Open Sans" sans-serif;
+  font-family:$body-font;
   text-transform: uppercase;
   color:#106DB3;
-  border-left:1px solid grey;
+  border-left:1px solid gray;
   padding-left: 50px;
   margin-top:50px;
   margin-bottom:50px;
@@ -317,7 +332,7 @@ font-weight: 900;
   float:left;
   height:30px;
   margin-right:20px;
-  font-family: "Oswald" sans-serif;
+  font-family: $header-font;
   font-weight:300;
   font-size:12px;
 }
@@ -345,12 +360,11 @@ font-weight: 900;
   display:inline-block;
   vertical-align:middle;
   background:#A0B3C0;
-  color:white;
+  color:$secondarycolor;
   width:100px;
-  hight:50px;
   padding: 0px 0px 13px 0px;
   text-align:center;
-  
+
 }
 
 .socialtext:hover{
@@ -375,16 +389,16 @@ font-weight: 900;
   float:left;
 }
 
-
+/*********RIGHT COLUMN********/
 
 .topimage{
   height:80px;
   width:80px;
   border-radius:100%;
   background:linear-gradient(
-    rgba(17,117,192,0.75),
-    rgba(17,117,192,0.75)
-    ),url("vaughant1.jpg") no-repeat center;
+  rgba(17,117,192,0.75),
+  rgba(17,117,192,0.75)
+  ),url("vaughant1.jpg") no-repeat center;
   background-size:100%;
   display: block;
   margin-left: auto;
@@ -396,26 +410,10 @@ font-weight: 900;
   background-size:100%;
 }
 
-/* .::after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      background-color: rgba(145, 145, 145, 0.5);
-      transition: background-color 300ms;
-}
-
-.:hover::after {
-      background-color: rgba(145, 145, 145, 0);
-    } */
-
 .topimagetext{
   text-align:center;
   text-transform: uppercase;
-  font-family:"Oswald" sans-serif;
+  font-family:$header-font;
   margin-top:10px;
   color:  #0069B6;
 }
@@ -426,9 +424,9 @@ font-weight: 900;
   display:inline;
   list-style-type: none;
   text-align:center;
-  border-right:solid 1px grey;
+  border-right:solid 1px gray;
   vertical-align:center;
-  font-family:"Oswald" sans-serif;
+  font-family:$header-font;
 }
 
 
@@ -445,9 +443,9 @@ font-weight: 900;
   display:inline-block;
   list-style-type: none;
   text-align:center;
-  border-right:solid 1px grey;
+  border-right:solid 1px gray;
   vertical-align:center;
-  font-family:"Oswald" sans-serif;
+  font-family:$header-font;
   padding-right:5px;
 
 }
@@ -458,19 +456,19 @@ font-weight: 900;
   font-size:12px;
   list-style-type: none;
   text-align:center;
-  border-right:solid 1px grey;
+  border-right:solid 1px gray;
   vertical-align:center;
-  font-family:"Oswald" sans-serif;
+  font-family:$header-font;
   padding-right:5px;
   padding-left: 5px;
 }
 .socialmedia3{
-    font-family:"Oswald" sans-serif;
-    display:inline-block;
-    vertical-align:center;
-    font-size:12px;
+  font-family:$header-font;
+  display:inline-block;
+  vertical-align:center;
+  font-size:12px;
 
-  }
+}
 
 
 .middleimage{
@@ -479,28 +477,28 @@ font-weight: 900;
   width:278px;
   margin-top:50px;
   background:linear-gradient(
-    rgba(17,117,192,0.1),
-    rgba(17,117,192,0.1)
-    ),url("http://bigislandnow.com/wp-content/uploads/2012/08/Happy_Stand_up_paddle_surfing.jpg") no-repeat center center;
+  rgba(17,117,192,0.1),
+  rgba(17,117,192,0.1)
+  ),url("http://bigislandnow.com/wp-content/uploads/2012/08/Happy_Stand_up_paddle_surfing.jpg") no-repeat center center;
 
 }
 
 #adtext{
   text-align:right;
-  font-family:"Oswald" sans-serif;
+  font-family:$header-font;
   font-size:12px;
 
 }
 
 a:link {
-  color: grey;
+  color: gray;
 }
 
 .bottomtext, h3{
   text-align:center;
   margin-top:25px;
   text-transform: uppercase;
-  font-family:"Oswald" sans-serif;
+  font-family:$header-font;
   color: #0069B6;
 }
 
@@ -508,7 +506,7 @@ a:link {
 
 
 .secondcontainer{
-  border-top:solid 1px grey;
+  border-top:solid 1px gray;
 
 }
 
@@ -523,53 +521,96 @@ a:link {
 
 
 /*********************FOUR IMAGE CONTAINER *************************/
-
+/*
+.allimages {
+  height: 330px;
+  width: 100%;
+  display: inline-block;
+  float: left;
+  background-size: cover;
+  font-size:20px;
+  text-transform: uppercase;
+    .oneimage {
+      height:330px;
+      width:25%;
+      float:left;
+      background:linear-gradient(
+      rgba(17,117,192,0.75),
+      rgba(17,117,192,0.75)
+      );
+        & a:hover{
+          display:inline-block;
+          height:330px;
+          width:100%;
+          float:left;
+          background:linear-gradient(
+          rgba(17,117,192,0.1),
+          rgba(17,117,192,0.1)
+          );
+          }
+    .pic1 { background-image: url("http://stabmag.com/wp-content/uploads/2012/06/27QNA1-popup.jpg"); }
+    .pic2 { background-image: url("http://360guide.info/wp-content/uploads/2014/06/surfboard-design-lineup.jpg"); }
+}
+*/
 .allimages{
   height: 330px;
   width: 100%;
   display: inline-block;
   float: left;
   background-size: cover;
+  font-size:20px;
+  text-transform: uppercase;
 }
 
 .oneimage{
+  .pic1{
+    background-image:url("http://stabmag.com/wp-content/uploads/2012/06/27QNA1-popup.jpg") no-repeat center center;
+  }
+
+  .pic2{
+    background-image:url("http://stabmag.com/wp-content/uploads/2012/06/27QNA1-popup.jpg") no-repeat center center;
+
+  }
+
+
+
   display:inline-block;
   height:330px;
   width:25%;
   float:left;
   background:linear-gradient(
-    rgba(17,117,192,0.1),
-    rgba(17,117,192,0.1)
-    ),url("http://stabmag.com/wp-content/uploads/2012/06/27QNA1-popup.jpg") no-repeat center center;
-
-}
- .oneimage a:hover{
-    display:inline-block;
-    height:330px;
-    width:100%;
-    float:left;
-    background:linear-gradient(
-        rgba(17,117,192,0.75),
-        rgba(17,117,192,0.75)
-        );
+  rgba(17,117,192,0.75),
+  rgba(17,117,192,0.75)
+  );
+    a:hover{
+      display:inline-block;
+      height:330px;
+      width:100%;
+      float:left;
+      background:linear-gradient(
+      rgba(17,117,192,0.1),
+      rgba(17,117,192,0.1)
+      );
+      }
 
 }
 
 .oneimage_text {
   margin: 259px 0px 0px 20px;
-  color: #ffffff;
+  color: $primarycolor;
   width: 81%;
+  margin-top:260px;
+    &:hover{
+      margin: 259px 0px 0px 20px;
+      color: $secondarycolor;
+      width: 81%;
+      margin-top:260px;
+    }
 }
 
-.oneimage_text a {
-  margin: 0px;
-  color: #ffffff;
-  width: 81%;
-}
 
 
-
-/*FOOTER IMAGE*/
+/****************FOOTER IMAGE*********************/
 
 .footerimage{
   height:40px;
@@ -582,7 +623,7 @@ a:link {
   float:left;
 }
 
-/******FOOTER TEXT LEFT *************************/
+/******FOOTER TEXT LEFT *******/
 
 .footertextleft{
   float:left;
@@ -591,7 +632,7 @@ a:link {
 }
 
 .footerimageleft{
-  background: url("icons/theironyard.png") no-repeat center;
+  background: url("theironyard.png") no-repeat center;
   height:40px;
   width: 70px;
   display:inline;
@@ -607,12 +648,12 @@ a:link {
   vertical-align:center;
 }
 
-/******FOOTER TEXT RIGHT *************************/
+/******FOOTER TEXT RIGHT *********/
 
 .footertextright{
 
   float:right;
-  color:#003353;
+  color:$primarycolor;
   padding-left: 50px;
   text-align:right;
   display:inline;
@@ -625,8 +666,8 @@ a:link {
 
 
 #footertext{
-  font-family: 'Open Sans', sans-serif;
-  color: white;
+  font-family: $body-font;
+  color: $secondarycolor;
   size:8px;
   align:center;
   margin-top: 40px;
@@ -636,7 +677,7 @@ a:link {
 }
 
 .footernavtext, {
-  color:white;
+  color:$secondarycolor;
   display: inline-block;
   list-style-type: none;
   vertical-align:center;
@@ -644,18 +685,18 @@ a:link {
 }
 
 .navtext{
-font-family:"Oswald" sans-serif;
-color:white;
-font-size:12px;
-display:inline;
-border-right:solid 2px grey;
-vertical-align:center;
-padding-right:5px;
+  font-family:$header-font;
+  color:$secondarycolor;
+  font-size:12px;
+  display:inline;
+  border-right:solid 2px gray;
+  vertical-align:center;
+  padding-right:5px;
 }
 
 .navtext2{
-  font-family:"Oswald" sans-serif;
-  color:white;
+  font-family:$header-font;
+  color:$secondarycolor;
   font-size:12px;
   display:inline;
   vertical-align:center;
